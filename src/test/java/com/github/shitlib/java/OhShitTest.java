@@ -20,21 +20,26 @@ public class OhShitTest {
 
     @Test
     public void ohShit_Integer_1() {
+        //TODO:
     }
 
     @Test
     public void ohShit2() {
+        //TODO:
     }
 
     @Test
     public void ohShit3() {
+        //TODO:
     }
 
     @Test
     public void ohShit4() {
+        //TODO:
     }
 
     @Test
     public void ohShit5() {
+        //TODO:
     }
 }

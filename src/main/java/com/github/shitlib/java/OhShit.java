@@ -2,8 +2,6 @@ package com.github.shitlib.java;
 
 public final class OhShit {
 
-    private OhShit() {}
-
     public static final Object _NULL = null;
     public static final String _EMPTY = "";
 
@@ -41,5 +39,7 @@ public final class OhShit {
     public static byte ohShit(byte i) {
         return i;
     }
+
+    private OhShit() {}
 
 }

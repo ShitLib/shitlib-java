@@ -1,4 +1,4 @@
-package com.github.shitlib.java;
+package io.github.shitlib.java;
 
 public final class OhShit {
 

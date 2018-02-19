@@ -1,4 +1,4 @@
-package com.github.shitlib.java;
+package io.github.shitlib.java;
 
 import org.junit.jupiter.api.Test;
 

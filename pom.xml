@@ -10,7 +10,8 @@
 
     <name>ShitLib Java</name>
     <url>https://github.com/${project.organization.name}/${project.artifactId}</url>
-    <description>The library that help you doing things right or to be aware of shitty code in your application.
+    <description>
+        The only library you hope to remove! This library helps you remember about things done bad.
     </description>
     <inceptionYear>2016</inceptionYear>
     <organization>

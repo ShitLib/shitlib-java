@@ -2,9 +2,8 @@ package io.github.shitlib.java;
 
 import org.junit.jupiter.api.Test;
 
-import static com.github.shitlib.java.OhShit.*;
+import static io.github.shitlib.java.OhShit.*;
 import static org.assertj.core.api.Assertions.*;
-
 
 
 public class OhShitTest {

@@ -2,7 +2,6 @@ package com.github.shitlib.java;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static com.github.shitlib.java.OhShit.*;
 import static org.assertj.core.api.Assertions.*;
 
@@ -19,32 +18,37 @@ public class OhShitTest {
     }
 
     @Test
-    public void ohShitInteger1() {
-        //TODO:
-        assertTrue(true);
+    public void ohShitInteger() {
+        assertThat(ohShit(1)).isInstanceOf(Integer.class).isEqualTo(1);
     }
 
     @Test
-    public void ohShit2() {
-        //TODO:
-        assertTrue(true);
+    public void ohShitByte() {
+        assertThat(ohShit((byte) 1)).isInstanceOf(Byte.class).isEqualTo((byte) 1);
     }
 
     @Test
-    public void ohShit3() {
-        //TODO:
-        assertTrue(true);
+    public void ohShitLong() {
+        assertThat(ohShit(1L)).isInstanceOf(Long.class).isEqualTo(1L);
     }
 
     @Test
-    public void ohShit4() {
-        //TODO:
-        assertTrue(true);
+    public void ohShitBoolean() {
+        assertThat(ohShit(true)).isInstanceOf(Boolean.class).isEqualTo(true);
     }
 
     @Test
-    public void ohShit5() {
-        //TODO:
-        assertTrue(true);
+    public void ohShitString() {
+        assertThat(ohShit("a string")).isInstanceOf(String.class).isEqualTo("a string");
+    }
+
+    @Test
+    public void ohShitNull() {
+        assertThat(ohShit(null)).isNull();
+    }
+
+    @Test
+    public void ohShitCharacter() {
+        assertThat(ohShit('A')).isInstanceOf(Character.class).isEqualTo('A');
     }
 }

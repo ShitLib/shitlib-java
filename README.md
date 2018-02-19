@@ -19,7 +19,7 @@ Oh your boss forced you to get the first element of a list and you know that it'
 ```java
 import static io.github.shitlib.java.OhShit.*;
 
-class MyBeatifulClass {
+class MyBeautifulClass {
     
     List<String> elements;//with some elements inside
     
@@ -39,6 +39,22 @@ It's simple, this is the most useful library when it is deleted.
 After that your project will not compile and you will be immediately aware of what to do.
 Fix it!
 
+Other way to use ShitLib? Let's give a try to the method API
+
+```java
+import static io.github.shitlib.java.OhShit.*;
+
+class MyBeautifulUnConfigurableClass {
+    
+    public static final int MAX_PASSWORD_SIZE = ohShit(7);//I cannot parameterize now
+    
+    public void setPassword(String password) {
+         if (password.length() > MAX_PASSWORD_SIZE) {
+              throw new InvalidArgumentException("password");
+         }
+    }
+}
+```  
 
 ### News
   * xx-02-2018 First release on maven central repo

@@ -18,6 +18,12 @@ public class OhShitTest {
     }
 
     @Test
+    public void ohShitNull() {
+        MyClass a = null;
+        assertThat(ohShit( a)).isNull();
+    }
+
+    @Test
     public void ohShitInteger() {
         assertThat(ohShit(1)).isInstanceOf(Integer.class).isEqualTo(1);
     }
@@ -40,11 +46,6 @@ public class OhShitTest {
     @Test
     public void ohShitString() {
         assertThat(ohShit("a string")).isInstanceOf(String.class).isEqualTo("a string");
-    }
-
-    @Test
-    public void ohShitNull() {
-        assertThat(ohShit(null)).isNull();
     }
 
     @Test

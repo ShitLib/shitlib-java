@@ -58,4 +58,8 @@ class MyBeautifulUnConfigurableClass {
 
 ### News
   * xx-02-2018 First release on maven central repo
-  
+
+### Vote for the next step
+  * [Add new methods](https://strawpoll.com/p55b3gp8): ``crap``, ``holyCow``, ``wtf``, ``omg``;
+  * [Add new classes](https://strawpoll.com/kfbsxpkw): ``Crap``, ``HolyCow``, ``WTF``, ``OMG``.
+

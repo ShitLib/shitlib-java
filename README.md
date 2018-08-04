@@ -7,6 +7,7 @@ With ShitLib you will be always aware of the shitty code inside your application
 
 ### Installation
 Import the library, proabably the smallest library you'll every see
+Maven
 ```xml
 <dependency>
     <groupId>io.github.shitlib</groupId>
@@ -14,7 +15,7 @@ Import the library, proabably the smallest library you'll every see
     <version>1</version>
 </dependency>
 ```
-
+Gradle
 ```groovy
 dependencies {
     implementation 'io.github.shitlib:shitlib-java:1'

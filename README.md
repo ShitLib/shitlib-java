@@ -5,7 +5,21 @@ ShitLib (oh Shit!) [![Build Status](https://travis-ci.org/ShitLib/shitlib-java.s
 The library that helps you remember about things done bad.
 With ShitLib you will be always aware of the shitty code inside your application.
 
+### Installation
+Import the library, proabably the smallest library you'll every see
+```xml
+<dependency>
+    <groupId>io.github.shitlib</groupId>
+    <artifactId>shitlib-java</artifactId>
+    <version>1</version>
+</dependency>
+```
 
+```groovy
+dependencies {
+    implementation 'io.github.shitlib:shitlib-java:1'
+}
+```
 
 ### Usage
 Are you writing unwanted code, antipatterns, magic numbers?

@@ -113,7 +113,7 @@
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.0</version>
+                    <version>0.8.11</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -275,10 +275,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.testSource>1.8</maven.compiler.testSource>
-        <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
+        <maven.compiler.release>8</maven.compiler.release>
         <wagon.scm.version>3.0.0</wagon.scm.version>
         <wagon.scm.provider.version>1.9.4</wagon.scm.provider.version>
         <pushChanges>false</pushChanges>
